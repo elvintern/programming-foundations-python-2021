@@ -38,7 +38,7 @@ def call_everyone(payment_to_homie):
 
 while True:
     user_answer = input(
-        "Which homie would you like to call? (options: homie_1, homie_2, homie_3, drake or q if you want to end this programme): ")
+        "Which homie would you like to call? (options: homie_1, homie_2, homie_3, drake or press 'q' if you want to end this programme): ")
     if user_answer == "homie_1":
         homie_1()
     elif user_answer == "homie_2":
